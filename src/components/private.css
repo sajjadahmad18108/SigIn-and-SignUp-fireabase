@@ -1,0 +1,92 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Container Styles */
+  .container {
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styles */
+  .header-container {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .header-container h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  /* Main Styles */
+  .main-container {
+    padding: 20px;
+  }
+  
+  .profile {
+    padding: 20px 0;
+    font-size: 22px;
+    color: #4a90e2;
+  }
+  
+  .main-container p {
+    line-height: 1.6;
+  }
+  
+  /* Footer Styles */
+  .footer-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+  }
+  
+  .footer-button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .footer-button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .container {
+      margin: 10px;
+    }
+  
+    .header-container, .main-container, .footer-container {
+      padding: 10px;
+    }
+  
+    .header-container h1, .profile {
+      font-size: 20px;
+    }
+  
+    .footer-button {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+  
